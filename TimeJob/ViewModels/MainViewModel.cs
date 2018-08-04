@@ -20,7 +20,7 @@ namespace TimeJob.ViewModels
             _datalayer = datalayer;
             TabItems = new ObservableCollection<TabItem>
             {
-                //add
+                //add comment 2
                 //new TabItem{Content = new TabAView() {DataContext = new TabAViewModel()}, Header = "Tab A"},
                 new TabItem{Content = new CreateView(), Header = "new"},
                 new TabItem{Content = new UpdateView(), Header = "update"}
